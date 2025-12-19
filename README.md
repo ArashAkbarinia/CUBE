@@ -23,8 +23,7 @@ The colour ground-truth data collected through the online psychophysical experim
 
 ### Image Features
 
-We have uploaded the CLIP features used for our best-performing model to  
-`data/image_features/i-org__RN50__openai__i-sam__coca_ViT-L-14__mscoco_finetuned_laion2b_s13b_b90k/`.
+Download the CLIP features used for our best-performing model [i-org__RN50__openai__i-sam__coca_ViT-L-14__mscoco_finetuned_laion2b_s13b_b90k](https://www.allpsych.uni-giessen.de/arash/data/THINGS_EEG2_image_features.zip).
 
 If you wish to generate the SAM-based images yourself and extract features using other CLIP models, run `sam_colour_segs.py` and `extract_features` from the `preprocess` directory.
 
